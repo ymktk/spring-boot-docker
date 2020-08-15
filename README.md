@@ -14,7 +14,7 @@
 ## Docker commands
 
 ```bash
-cd /path/to/gradle-build/
+cd /path/to/spring-boot-docker/
 
 docker build -t gradlesample . --target release
 

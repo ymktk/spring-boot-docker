@@ -4,11 +4,8 @@ WORKDIR /app
 COPY ./demo/src             ./src
 COPY ./demo/build.gradle    ./
 COPY ./demo/settings.gradle ./
-#COPY ./demo/gradle          ./gradle
-#COPY ./demo/gradlew         ./
 
 RUN  gradle build
-#RUN  ./gradlew build
 
 ################################################################################
 From openjdk:11-jre-slim-buster AS release
